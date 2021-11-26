@@ -1,0 +1,38 @@
+{
+  "name": "webpack5vue3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server  --hot  --config build/webpack.dev.js",
+    "build": "webpack  --config  build/webpack.prod.js",
+    "distanalyzer": "webpack --env.analyzer=true --config build/webpack.prod.js"
+  },
+  "author": "bill mark",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.23",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@vue/compiler-sfc": "^3.2.23",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^6.0.1",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^16.8.3",
+    "webpack": "^5.64.3",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
